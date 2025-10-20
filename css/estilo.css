@@ -1,0 +1,51 @@
+form{
+    margin-top: 30px;
+    text-align: center;
+    }
+
+form input[type="submit"] {
+    margin-top: 4px;
+}
+
+form img {
+    width: 200px;
+}
+
+input{
+    margin-bottom: 4px;
+    }
+
+.cartao {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.img {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 5px;
+    border-color: rgb(131, 131, 129);
+    border-radius: 10px;
+    border-width: 3px;
+    
+}
+
+.text {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.card a {
+    margin-top: 5px;
+}
+

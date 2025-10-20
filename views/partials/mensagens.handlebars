@@ -1,0 +1,26 @@
+{{!Condicional de igualdade de sucesso mensagem}}
+{{#condicionalIgualdade situacao "okCadastro"}}
+    <div class="alert alert-success">Produto cadastrado com sucesso!</div>
+{{/condicionalIgualdade}}
+
+{{#condicionalIgualdade situacao "okEdicao"}}
+    <div class="alert alert-success">Produto editado com sucesso!</div>
+{{/condicionalIgualdade}}
+
+{{#condicionalIgualdade situacao "okRemover"}}
+    <div class="alert alert-success">Produto removido com sucesso!</div>
+{{/condicionalIgualdade}}
+
+{{!condicional de igualdade - falha nos procedimentos acima}}
+
+{{#condicionalIgualdade situacao "falhaCadastro"}}
+    <div class="alert alert-danger">Falha ao cadastrar o produto! Tente novamente.</div>
+{{/condicionalIgualdade}}
+
+{{#condicionalIgualdade situacao "falhaEdicao"}}
+    <div class="alert alert-danger">Falha ao editar o produto! Tente novamente.</div>
+{{/condicionalIgualdade}}
+
+{{#condicionalIgualdade situacao "falhaRemover"}}
+    <div class="alert alert-danger">Falha ao remover o produto! Tente novamente.</div>
+{{/condicionalIgualdade}}
