@@ -9,14 +9,6 @@
 
 ---
 
-## 🎨 Demonstração do Projeto
-
-> 🖼️ **Screenshot do site:**  
-![Exemplo do site](https://via.placeholder.com/800x400.png?text=Screenshot+LojaProdutos)  
-
-> 💡 Dica: substitua esta imagem por **screenshots reais do seu site**.
-
----
 
 ## 🖥️ Funcionalidades Principais
 
