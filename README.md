@@ -39,15 +39,20 @@
 
 lojaProdutos/
 │
+
 ├── app.js # Servidor principal
+
 ├── package.json # Dependências e scripts
+
 ├── views/ # Templates Handlebars
+
 ├── css/ # Estilos
+
 ├── imagens/ # Recursos gráficos
+
 └── node_modules/ # Dependências
 
-yaml
-Copiar código
+
 
 > 📝 Dica: você pode adicionar **ícones ou mini-screenshots** para cada pasta, simulando caixas visuais.
 
