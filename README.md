@@ -1,67 +1,85 @@
-LojaProdutos
+# 🛒 LojaProdutos
 
-Um site de exemplo para estudos, que demonstra a criação de um sistema simples de exibição de produtos usando Node.js, Handlebars e CSS. Ideal para quem deseja aprender sobre rotas, templates e organização de projetos web.
+> Um projeto **de estudo**, que demonstra como criar um sistema simples de exibição de produtos usando **Node.js**, **Express** e **Handlebars**.
 
-Tecnologias Utilizadas
+![GitHub repo size](https://img.shields.io/github/repo-size/bruno000shou/lojaProdutos) 
+![GitHub stars](https://img.shields.io/github/stars/bruno000shou/lojaProdutos?style=social) 
+![GitHub forks](https://img.shields.io/github/forks/bruno000shou/lojaProdutos?style=social) 
+![GitHub license](https://img.shields.io/github/license/bruno000shou/lojaProdutos)
 
-Node.js – Ambiente de execução JavaScript no servidor
+---
 
-Express – Framework web para Node.js
+## 🎨 Demonstração do Projeto
 
-Handlebars – Template engine para criação de views dinâmicas
+> 🖼️ **Screenshot do site:**  
+![Exemplo do site](https://via.placeholder.com/800x400.png?text=Screenshot+LojaProdutos)  
 
-CSS – Estilização das páginas
+> 💡 Dica: substitua esta imagem por **screenshots reais do seu site**.
 
-JavaScript – Lógica de front-end e interatividade
+---
 
-Estrutura do Projeto
+## 🖥️ Funcionalidades Principais
+
+> Cada funcionalidade destacada como uma “caixa” visual:
+
+> ⚡ **Exibição de produtos:** Páginas dinâmicas mostrando os produtos cadastrados.  
+> 📱 **Layout responsivo:** Funciona em desktop, tablet e celular.  
+> 🧩 **Estrutura modular:** Código organizado para estudo e fácil manutenção.  
+> 🔧 **Customização fácil:** Adicione novos produtos ou altere o layout rapidamente.  
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+| Tecnologia | Badge |
+|------------|-------|
+| Node.js    | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) |
+| Express    | ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white) |
+| Handlebars | ![Handlebars](https://img.shields.io/badge/Handlebars-f0772b?style=flat&logo=handlebarsdotjs&logoColor=white) |
+| CSS        | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) |
+| JavaScript | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) |
+
+---
+
+## 🗂 Estrutura do Projeto
+
+> Estrutura modular para estudo:
+
 lojaProdutos/
 │
-├── app.js                 # Arquivo principal do servidor
-├── package.json           # Dependências e scripts do Node.js
-├── views/                 # Templates Handlebars
-├── css/                   # Arquivos de estilização
-├── imagens/               # Recursos gráficos
-└── node_modules/          # Dependências instaladas
+├── app.js # Servidor principal
+├── package.json # Dependências e scripts
+├── views/ # Templates Handlebars
+├── css/ # Estilos
+├── imagens/ # Recursos gráficos
+└── node_modules/ # Dependências
 
-Funcionalidades
+yaml
+Copiar código
 
-Exibição de produtos em páginas dinâmicas
+> 📝 Dica: você pode adicionar **ícones ou mini-screenshots** para cada pasta, simulando caixas visuais.
 
-Layout responsivo básico
+---
 
-Estrutura modular e de fácil compreensão para estudo
+## ⚡ Como Rodar o Projeto
 
-Instalação e Uso
+> Siga os passos abaixo:
 
-Clone este repositório:
-
+```bash
+# Clone o repositório
 git clone https://github.com/bruno000shou/lojaProdutos.git
 
-
-Acesse a pasta do projeto:
-
+# Entre na pasta do projeto
 cd lojaProdutos
 
-
-Instale as dependências:
-
+# Instale as dependências
 npm install
 
-
-Inicie o servidor:
-
+# Inicie o servidor
 node app.js
+Abra no navegador:
 
-
-Abra o navegador e acesse:
-
+arduino
+Copiar código
 http://localhost:3000
-
-Contribuição
-
-Este projeto é destinado a fins de estudo. Contribuições são bem-vindas para aprimoramento de funcionalidades, organização do código ou aprendizado colaborativo.
-
-Licença
-
-Este projeto está sob a licença MIT – consulte o arquivo LICENSE para mais informações.
+💡 Dica: use nodemon durante o desenvolvimento para reinício automático do servidor.
